@@ -256,22 +256,26 @@ body {
 .contact-me {
     padding: 2rem 15rem;
 }
-form {
-    text-align: center;
+.form {
+    max-width: 100%;
 }
 .input {
     border: none;
     border: 1px solid rgb(222, 245, 237);
-    padding: .5rem 5rem .5rem .5rem;
+    padding: .5rem 1.3rem .5rem .5rem;
     border-radius: 3px;
     color: rgb(182, 178, 178);
     margin-bottom: 1rem;
+    width: 42%;
+}
+.first-form {
+    margin-right: -3rem;
 }
 .input-2 {
-    padding: .5rem 19.5rem .5rem .5rem;
+    width: 100%;
 }
 .textarea {
-   width: 80%;
+   width: 100%;
    height: 7rem;
 }
 .footer {
