@@ -1,0 +1,284 @@
+
+body {
+    box-sizing: border-box;
+    padding:  1rem 2rem 0 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.header {
+    padding: 0 5rem 1rem 5rem;
+}
+.navigation a {
+    text-decoration: none;
+    color: #777;
+}
+.navigation a:hover {
+    color: rgb(252, 67, 67);
+}
+.navigation {
+    float: right;
+}
+.logo {
+    float: left;
+    height: 2rem;
+    transform: translateX(5rem);
+}
+.navigation li {
+    list-style: none;
+    float: left;
+    margin-right: 1rem;
+    font-size: .8rem;
+}
+.fix {
+    clear: both;
+}
+.man {
+    margin: 0 auto;
+    width: 30%;
+    padding: 2rem 0;
+    float: left;
+}
+.story {
+    width: 40%;
+    line-height: .5rem;
+    float: right;
+    margin: 2rem 0;
+    margin-top: 10rem;
+}
+.story h3 {
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+.story h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.paragraph {
+    line-height: 1rem;
+    color: #777;
+    font-size: .7rem;
+    margin-bottom: .8rem; 
+}
+
+.story-link {
+    margin: 3rem .5rem 1rem 0;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(252, 67, 67); 
+    padding: .5rem 1rem;
+    font-size: .6rem;
+    border-radius: 2px;
+}
+.about {
+    padding: 2rem 8rem;
+    background-color: rgb(247, 243, 243);
+}
+.section-heading {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.my-cv {
+    float: left;
+    width: 50%;
+    padding-right: 1rem;
+}
+.contact {
+    float: right;
+    width: 45%;
+}
+.skill {
+    padding: 2rem 8rem;
+}
+
+.grade {
+    margin-bottom: 2rem;
+    height: .3rem;
+    margin-top: .5rem;
+}
+.grade:nth-child(1) { background-image: linear-gradient(to right, rgb(252, 67, 67) 70%, rgb(222, 243, 242) 70%);}
+.grade:nth-child(2) { background-image: linear-gradient(to right, rgb(252, 67, 67) 80%, rgb(222, 243, 242) 80%);}
+.grade:nth-child(3) { background-image: linear-gradient(to right, rgb(252, 67, 67) 60%, rgb(222, 243, 242) 60%);}
+
+.grade-2 {
+    margin-bottom: 2rem;
+    height: .3rem;
+    margin-top: .5rem;
+}
+.grade-2:nth-child(1) { background-image: linear-gradient(to right, rgb(252, 67, 67) 90%, rgb(222, 243, 242) 90%);}
+.grade-2:nth-child(2) { background-image: linear-gradient(to right, rgb(252, 67, 67) 65%, rgb(222, 243, 242) 65%);}
+.grade-2:nth-child(3) { background-image: linear-gradient(to right, rgb(252, 67, 67) 85%, rgb(222, 243, 242) 85%);}
+
+.my-services {
+    background-color: rgb(247, 243, 243); 
+}
+.content {
+    padding: 2rem 8rem;
+}
+.top {
+    margin-bottom: 1rem;
+}
+.web-design {
+    width: 30%;
+    background-color: white;
+    padding: .5rem;
+    float: left;
+    margin: .5rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.box-head {
+    font-weight: 50;
+    font-size: .7rem;
+    margin-bottom: .02rem;
+}
+.web-design .paragraph {
+    color: rgb(189, 185, 185);
+}
+.port-nav {
+    margin: 2rem;
+    text-align: center;
+    margin-left: 18rem;
+}
+@media screen and (min-width: 1200px) {
+    .port-nav {
+        margin-left: 25rem;
+    }
+}
+@media screen and (min-width: 2000px) {
+    .port-nav {
+        margin-left: 40rem;
+    }
+}
+.port-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 1rem;
+}
+.port-nav a {
+    color: rgb(187, 185, 185);
+    padding: .4rem .8rem;
+    border: .5px solid rgb(188, 250, 229);
+    border-top: none;
+    font-size: .7rem;
+    text-decoration: none;
+    transition: all .5s;
+}
+.port-nav a:hover {
+    color: white;
+    background-color:  rgb(252, 67, 67);
+}
+.mag {
+    padding: 2rem 8rem;
+}
+.por-img {
+    width: 30.3%;
+}
+.portfolio {text-align: center;}
+
+.hire-me {
+    background-color: rgb(247, 243, 243);
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.bold {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.client {
+    text-align: center;
+    padding: 2.5rem;
+}
+.client-img {
+    border: 1px solid rgb(201, 243, 229);
+    border-radius: 50%;
+}
+.client-head {
+    font-size: .6rem;
+    color: rgb(212, 206, 206);
+    margin-top: .2rem;
+    margin-bottom: .3rem;
+}
+.client-name {
+    color: rgb(252, 67, 67); 
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+.paragraph-small {
+    font-size: .6rem;
+    color: rgb(212, 206, 206);
+    padding: 0 16rem;
+}
+.star {
+    transform: scale(.15) translateX(4.5rem) translateY(-20rem);
+}
+.my-blog {
+    background-color: rgb(247, 243, 243);
+    padding: 2rem 0;
+    text-align: center;
+}
+.box-h {
+    text-align: left;
+    margin-top: .4rem;
+    margin-bottom: .2rem;
+}
+.sep {
+    text-align: left;
+    margin-top: .4rem;
+    margin-bottom: .2rem;
+}
+.blog-img {
+    width: 100%;
+    padding: -5rem;
+    margin: 0 -5rem;
+}
+.design {
+    width: 30%;
+    background-color: white;
+    float: left;
+    margin: .5rem;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.pad {
+    padding: 0 .5rem 1rem .5rem;
+}
+.blog-date {
+    font-size: .6rem;
+    text-align: left;
+    color: rgb(61, 60, 60);
+}
+
+.contact-me {
+    padding: 2rem 15rem;
+}
+form {
+    text-align: center;
+}
+.input {
+    border: none;
+    border: 1px solid rgb(222, 245, 237);
+    padding: .5rem 5rem .5rem .5rem;
+    border-radius: 3px;
+    color: rgb(182, 178, 178);
+    margin-bottom: 1rem;
+}
+.input-2 {
+    padding: .5rem 19.5rem .5rem .5rem;
+}
+.textarea {
+   width: 80%;
+   height: 7rem;
+}
+.footer {
+    background-color: rgb(68, 67, 67);
+    font-size: .5rem;
+    color: rgb(204, 203, 203);
+    text-align: center;
+    padding: .5rem;
+    margin-top: 2rem;
+}
