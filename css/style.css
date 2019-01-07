@@ -289,3 +289,112 @@ body {
 .icon {
     color: rgb(247, 74, 74);
 }
+@media screen and (max-width: 500px) {
+    body {
+        width: 100%;
+        font-size: 100%;
+        float: none;
+    }
+    .navigation {
+        float: left;
+        margin:  0;
+        padding:  0;
+    }
+    .navigation li {
+        width: 1%;
+        margin: 1rem;
+        margin-right: 1rem;
+        padding: 1rem;
+    }
+    .first {
+        padding: 2rem;
+    }
+    .man {
+        width: 100%;
+        padding: 0;
+    }
+    .story {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .about {
+        padding: 0;
+        margin: 0;
+        padding: .5rem;
+    }
+    .skill {
+        margin: 0;
+        padding: 0;
+        float: none;
+        width: 100%;
+        padding: .5rem;
+    }
+    .my-cv {
+        float: none;
+        width: 100%;
+    }
+    .input {
+        width: 100%;
+        margin: 0;
+        padding: -1rem;;
+    }
+    .contact {
+        float: none;
+        width: 100%;
+    }
+    .my-services {
+        margin: 0;
+        padding: 0;
+        float: none;
+        width: 100%;
+    }
+    .content {
+        margin: 0;
+        padding: 0;
+        float: none;
+        width: 100%;
+    }
+    .top {
+        float: none;
+        width: 100%;
+    }
+    .bottom {
+        float: none;
+        width: 100%;
+    }
+    .web-design {
+        width: 100%; 
+        float: none;
+    }
+    .design {
+        width: 100%; 
+        float: none;
+    }
+    .contact-me {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .form {
+        width: 100%;
+    }
+    .paragraph-small {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+    .star {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+    .port-nav {
+        text-align: left;
+        transform: translate(0);
+        padding: 0;
+        margin: 0;
+    }
+}
