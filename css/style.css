@@ -3,6 +3,12 @@ body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    max-width: 100%;
+}
+.section-margin {
+    width: 70%;
+    margin-right: 0;
+    padding-right: 0 auto;
 }
 .header {
     padding: 0 8rem 1rem 8rem;
@@ -74,7 +80,7 @@ body {
     border-radius: 2px;
 }
 .about {
-    padding: 2rem 5rem;
+    padding: 2rem 10rem;
     background-color: rgb(247, 243, 243);
 }
 .section-heading {
@@ -91,7 +97,7 @@ body {
     width: 45%;
 }
 .skill {
-    padding: 2rem 5rem;
+    padding: 2rem 10rem;
     box-sizing: border-box;
 }
 
@@ -115,6 +121,7 @@ body {
 .grade-2:nth-child(3) { background-image: linear-gradient(to right, rgb(252, 67, 67) 85%, rgb(222, 243, 242) 85%);}
 
 .my-services {
+    padding: 2rem 8rem;
     background-color: rgb(247, 243, 243); 
 }
 .content {
@@ -174,7 +181,7 @@ body {
     background-color:  rgb(252, 67, 67);
 }
 .mag {
-    padding: 2rem 4rem;
+    padding: 2rem 10rem;
 }
 .por-img {
     width: 31%;
@@ -224,7 +231,7 @@ body {
 }
 .my-blog {
     background-color: rgb(247, 243, 243);
-    padding: 2rem;
+    padding: 2rem 8rem;
     text-align: center;
 }
 .box-h {
@@ -343,14 +350,14 @@ body {
     .about {
         padding: 0;
         margin: 0;
-        padding: 1rem;
+        padding: 3rem;
     }
     .skill {
         margin: 0;
         padding: 0;
         float: none;
         width: 90%;
-        padding: .5rem;
+        padding: 2rem;
     }
     .my-cv {
         float: none;
@@ -387,6 +394,7 @@ body {
         margin: 0;
         padding: 0;
         padding: 1rem;
+        font-size: 1rem;
     }
     .my-services {
         margin: 0;
@@ -398,6 +406,7 @@ body {
         padding: 0;
         float: none;
         width: 100%;
+        font-size: 1.5rem;
     }
     .top {
         margin: 0;
@@ -423,6 +432,9 @@ body {
         width: 100%; 
         float: none;
         margin-bottom: .5rem;
+    }
+    .design p {
+        font-size: 1rem;
     }
     .contact-me {
         width: 100%;
