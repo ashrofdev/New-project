@@ -8,7 +8,8 @@ body {
 .section-margin {
     width: 70%;
     margin-right: 0;
-    padding-right: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 .header {
     padding: 0 8rem 1rem 8rem;
@@ -38,9 +39,7 @@ body {
 .fix {
     clear: both;
 }
-.first {
-    padding: 0 5rem;
-}
+
 .man {
     margin: 0 auto;
     width: 30%;
@@ -80,7 +79,7 @@ body {
     border-radius: 2px;
 }
 .about {
-    padding: 2rem 10rem;
+    padding: 2rem 0;
     background-color: rgb(247, 243, 243);
 }
 .section-heading {
@@ -97,7 +96,7 @@ body {
     width: 45%;
 }
 .skill {
-    padding: 2rem 10rem;
+    padding: 2rem 0;
     box-sizing: border-box;
 }
 
@@ -121,7 +120,7 @@ body {
 .grade-2:nth-child(3) { background-image: linear-gradient(to right, rgb(252, 67, 67) 85%, rgb(222, 243, 242) 85%);}
 
 .my-services {
-    padding: 2rem 8rem;
+    padding: 2rem 0;
     background-color: rgb(247, 243, 243); 
 }
 .content {
@@ -181,7 +180,7 @@ body {
     background-color:  rgb(252, 67, 67);
 }
 .mag {
-    padding: 2rem 10rem;
+    padding: 2rem 0;
 }
 .por-img {
     width: 31%;
@@ -231,7 +230,7 @@ body {
 }
 .my-blog {
     background-color: rgb(247, 243, 243);
-    padding: 2rem 8rem;
+    padding: 2rem 0;
     text-align: center;
 }
 .box-h {
@@ -269,25 +268,25 @@ body {
 }
 
 .contact-me {
-    padding: 2rem 15rem;
-}
-.form {
-    max-width: 100%;
+    padding: 2rem 12rem;
 }
 .input {
     border: none;
     border: 1px solid rgb(222, 245, 237);
-    padding: .5rem 1.3rem .5rem .5rem;
+    padding: .5rem 2rem .5rem .5rem;
     border-radius: 3px;
     color: rgb(182, 178, 178);
     margin-bottom: 1rem;
-    width: 100%;
+    width: 37%;
+}
+.submit {
+    margin-left: 6rem;
 }
 .input-2 {
-    width: 100%;
+    width: 85%;
 }
 .textarea {
-   width: 100%;
+   width: 85%;
    height: 7rem;
 }
 .footer {
