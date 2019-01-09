@@ -43,15 +43,16 @@ body {
 .man {
     margin: 0 auto;
     width: 30%;
-    padding: 2rem 0;
+    margin-top: 3rem;
     float: left;
+    transform: scale(1.6);
 }
 .story {
     width: 40%;
     line-height: .5rem;
     float: right;
     margin: 2rem 0;
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 .story h3 {
     font-weight: 200;
@@ -108,7 +109,7 @@ body {
 }
 .grade:nth-child(1) { background-image: linear-gradient(to right, rgb(252, 67, 67) 70%, rgb(222, 243, 242) 70%);}
 .grade:nth-child(2) { background-image: linear-gradient(to right, rgb(252, 67, 67) 80%, rgb(222, 243, 242) 80%);}
-.grade:nth-child(3) { background-image: linear-gradient(to right, rgb(252, 67, 67) 60%, rgb(222, 243, 242) 60%);}
+.grade:nth-child(3) { background-image: linear-g radient(to right, rgb(252, 67, 67) 60%, rgb(222, 243, 242) 60%);}
 
 .grade-2 {
     margin-bottom: 2rem;
@@ -340,6 +341,7 @@ body {
         padding: 0;
         margin-bottom: 2rem;
         margin: 0;
+        transform: scale(1);
     }
     .story {
         width: 100%;
@@ -349,14 +351,14 @@ body {
     .about {
         padding: 0;
         margin: 0;
-        padding: 3rem;
+        padding: 1rem;
     }
     .skill {
         margin: 0;
         padding: 0;
         float: none;
         width: 90%;
-        padding: 2rem;
+        padding: 1rem;
     }
     .my-cv {
         float: none;
@@ -385,6 +387,11 @@ body {
         width: 100%;
         float: none;
     }
+    .port-nav {
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+    }
     .mag {
         margin: 0;
         padding: 0;
@@ -392,7 +399,7 @@ body {
     .my-blog {
         margin: 0;
         padding: 0;
-        padding: 1rem;
+        padding: 2rem;
         font-size: 1rem;
     }
     .my-services {
@@ -436,7 +443,7 @@ body {
         font-size: 1rem;
     }
     .contact-me {
-        width: 100%;
+        width: 90%;
         padding: 0;
         margin: 0;
     }
@@ -453,9 +460,10 @@ body {
         display: none;
     }
     .port-nav {
-        text-align: left;
         transform: translate(0);
         padding: 0;
-        margin: 0;
+    }
+    .port-nav li {
+        margin-right: .2rem;
     }
 }
